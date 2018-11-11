@@ -17,7 +17,7 @@ chromedriver = "C:\\Users\\MITTKE5\\Downloads\\chromedriver.exe"
 browser = webdriver.Chrome(executable_path=chromedriver)
 
 
-browser.get('https://gsd.verizon.com/operations/ncas/nfhistoricalinvoices.do#_undefined_undefined_back')
+browser.get('https://gsd.com/operations/ncas/nfhistoricalinvoices.do#_undefined_undefined_back')
 #browser.get('https://vecrm.verizon.com/vecrm/dashboard/index.jsp')
 time.sleep(10) # Let the user actually see something!
 
